@@ -2,4 +2,4 @@
 
 This ER diagram illustrates the main entities and relationships in the Airbnb database project.
 
-![ER Diagram](./airbnb_erd.png)
+![ER Diagram](./AirbnbERD.drawio.png)
