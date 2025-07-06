@@ -14,4 +14,5 @@ CREATE INDEX idx_property_price ON Property(pricepernight);
 
 
 
-EXPLAIN SELECT * FROM Booking WHERE user_id = 'abc-123';
+EXPLAIN ANALYZE SELECT * FROM Booking WHERE user_id = 'sample-user-id';
+
