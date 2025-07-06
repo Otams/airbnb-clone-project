@@ -11,3 +11,7 @@ CREATE INDEX idx_booking_created_at ON Booking(created_at);
 CREATE INDEX idx_property_host_id ON Property(host_id);
 CREATE INDEX idx_property_location ON Property(location);
 CREATE INDEX idx_property_price ON Property(pricepernight);
+
+
+
+EXPLAIN SELECT * FROM Booking WHERE user_id = 'abc-123';
